@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn on the light</title>
+   
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+   
+    <!-- <button id="myBtn"=btn1() >Turn on the light </button>
+    <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+   
+    <button id="myBtn2"=btn2>Turn Off the light </button>
+
+
+     <script>
+
+         const myBtn1 = document.querySelector('myBtn1')
+         myBtn1.addEventListener('onclick',btn1);
+         const myBtn2 = document.querySelector('myBtn2')
+         myBtn2.addEventListener('onclick',btn2);
+
+        function btn1(){
+            document.getElementById('myImage').src='img/pic_bulbon.gif';
+            
+            }
+            function btn2(){
+            document.getElementById('myImage').src='img/pic_bulboff.gif';
+            
+            }
+    
+    </script> --> 
+
+    <button onclick=btn1()>Turn on the light </button>
+    <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+   
+    <button onclick=btn2()>Turn Off the light </button>
+
+
+     <script>
+
+        function btn1(){
+            document.getElementById('myImage').src='img/pic_bulbon.gif';
+            
+            }
+            function btn2(){
+            document.getElementById('myImage').src='img/pic_bulboff.gif';
+            
+            }
+    
+    </script>
+
+
+</body>
+</html>
